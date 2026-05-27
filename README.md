@@ -1,20 +1,45 @@
-# Password Strength Analyzer 🔐
+# Secure Password Checker 
 
-This project was developed as part of my Cyber Security Internship at THIRANEX.
+This project was created during my Cyber Security Internship at THIRANEX.
 
-## Features
-- Password length check
-- Uppercase detection
-- Number detection
-- Special character detection
-- Common password detection
+##  About the Project
+The Secure Password Checker analyzes user passwords and determines whether they are weak, moderate, or strong using basic security conditions.
 
-## Technologies Used
+##  Key Features
+- Checks minimum password length
+- Detects uppercase characters
+- Detects numeric values
+- Detects special symbols
+- Identifies commonly used passwords
+- Provides password improvement tips
+
+##  Tools & Technologies
 - Python
-- Regex
-- VS Code
+- Regular Expressions (Regex)
+- Visual Studio Code
 
-## Run Command
+##  Execution Command
 
 ```bash
-python password_checker.py
+python passwordchecker.py
+```
+
+##  Example Output
+
+```text
+Enter Password: subha&7harini
+
+Password Analysis Result
+Strength: Medium password
+```
+
+##  Knowledge Gained
+Through this project, I learned:
+- Basics of password security
+- Pattern matching using Regex
+- Python decision-making statements
+- Fundamentals of cybersecurity
+
+##  Developed By
+V Subhaharini  
+Cyber Security Intern – THIRANEX
